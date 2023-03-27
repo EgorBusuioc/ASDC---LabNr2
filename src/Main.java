@@ -10,12 +10,24 @@ public class Main {
 
         File file = new File(".\\src\\MOCK_DATA.csv");
         ArrayList<Student> studentList = Student.input(file);
+        ArrayList<Student> originalList = new ArrayList<>(studentList);
 
         System.out.println("----------------------------------------------------------------------------");
         System.out.println("Bubble Sort");
         System.out.println("----------------------------------------------------------------------------");
-        //bubbleSort(studentList);
+        bubbleSort(studentList);
+        refreshList(studentList, originalList);
 
+        System.out.println("----------------------------------------------------------------------------");
+        System.out.println("Selection Sort");
+        System.out.println("----------------------------------------------------------------------------");
+        selectionSort(studentList);
+        refreshList(studentList, originalList);
+
+    }
+    public static void refreshList(ArrayList<Student> studentList, ArrayList<Student> originalList){
+        studentList.clear();
+        studentList.addAll(originalList);
     }
 
     public static void bubbleSort(ArrayList<Student> studentList) {
@@ -32,6 +44,34 @@ public class Main {
                     studentList.set(j, studentList.get(j + 1));
                     studentList.set(j + 1, temp);
                 }
+            }
+        }
+        long end = (nanoTime() - start);
+        for (Student student: studentList) {
+            System.out.println(student);
+        }
+        System.out.println("----------------------------------------------------------------------------");
+        System.out.println("Comparitions = " + comparitions);
+        System.out.println("Swaps = " + swaps);
+        System.out.println("Execution time \u2248 " + end/Math.pow(10, 9) + " seconds");
+    }
+
+    public static void selectionSort(ArrayList<Student> studentList){
+        long start = nanoTime();
+        int comparitions = 0;
+        int swaps = 0;
+        for (int i = 0; i < studentList.size() - 1; i++) {
+            int min_idx = i;
+            for (int j = i + 1; j < studentList.size(); j++) {
+                ++comparitions;
+                if(studentList.get(j).compareTo(studentList.get(min_idx)) < 0)
+                    min_idx = j;
+            }
+            if(i != min_idx){
+                ++swaps;
+                Student temp = studentList.get(i);
+                studentList.set(i, studentList.get(min_idx));
+                studentList.set(min_idx, temp);
             }
         }
         long end = (nanoTime() - start);

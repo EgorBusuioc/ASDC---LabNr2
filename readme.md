@@ -15,5 +15,5 @@
 ## Методы сортировки
 
 ### 1. __Bubble Sort__
-![img.png](img.png)
 
+![Sorting_bubblesort_anim.gif](Sorting_bubblesort_anim.gif)

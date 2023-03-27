@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2f5579b-26b7-4d73-8a6a-c82a89606336" name="Changes" comment="shellSort">
+    <list default="true" id="c2f5579b-26b7-4d73-8a6a-c82a89606336" name="Changes" comment="readMe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679931992990</updated>
       <workItem from="1679931994175" duration="2788000" />
-      <workItem from="1679934847134" duration="4685000" />
+      <workItem from="1679934847134" duration="5913000" />
     </task>
     <task id="LOCAL-00001" summary="bubbleSort">
       <created>1679934560511</created>
@@ -113,7 +115,42 @@
       <option name="project" value="LOCAL" />
       <updated>1679939184034</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="readMe">
+      <created>1679939838918</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679939838918</updated>
+    </task>
+    <task id="LOCAL-00008" summary="readMe">
+      <created>1679939886476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679939886477</updated>
+    </task>
+    <task id="LOCAL-00009" summary="readMe">
+      <created>1679939932442</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679939932442</updated>
+    </task>
+    <task id="LOCAL-00010" summary="readMe">
+      <created>1679940888099</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679940888099</updated>
+    </task>
+    <task id="LOCAL-00011" summary="readMe">
+      <created>1679940903436</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679940903436</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +160,8 @@
     <MESSAGE value="bubbleSort" />
     <MESSAGE value="selectionSort" />
     <MESSAGE value="shellSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="shellSort" />
+    <MESSAGE value="readMe" />
+    <option name="LAST_COMMIT_MESSAGE" value="readMe" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ASDC_____LabNr2$Main.ic" NAME="Main Coverage Results" MODIFIED="1679933469896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

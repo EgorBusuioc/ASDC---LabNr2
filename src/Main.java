@@ -24,6 +24,11 @@ public class Main {
         selectionSort(studentList);
         refreshList(studentList, originalList);
 
+        System.out.println("----------------------------------------------------------------------------");
+        System.out.println("Shell Sort");
+        System.out.println("----------------------------------------------------------------------------");
+        refreshList(studentList, originalList);
+        shellSort(studentList);
     }
     public static void refreshList(ArrayList<Student> studentList, ArrayList<Student> originalList){
         studentList.clear();
@@ -72,6 +77,33 @@ public class Main {
                 Student temp = studentList.get(i);
                 studentList.set(i, studentList.get(min_idx));
                 studentList.set(min_idx, temp);
+            }
+        }
+        long end = (nanoTime() - start);
+        for (Student student: studentList) {
+            System.out.println(student);
+        }
+        System.out.println("----------------------------------------------------------------------------");
+        System.out.println("Comparitions = " + comparitions);
+        System.out.println("Swaps = " + swaps);
+        System.out.println("Execution time \u2248 " + end/Math.pow(10, 9) + " seconds");
+    }
+
+    public static void shellSort(ArrayList<Student> studentList){
+        long start = nanoTime();
+        int comparitions = 0;
+        int swaps = 0;
+        for (int i = studentList.size() / 2; i > 0; i /= 2) {
+            for (int j = i; j < studentList.size(); j++) {
+                Student temp = studentList.get(j);
+                int g;
+                ++comparitions;
+                for (g = i; g >= i && studentList.get(g - i).compareTo(temp) > 0 ; g -= i) {
+                    ++swaps;
+                    studentList.set(j, studentList.get(g - i));
+                }
+                ++swaps;
+                studentList.set(g, temp);
             }
         }
         long end = (nanoTime() - start);

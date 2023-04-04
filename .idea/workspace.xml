@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2f5579b-26b7-4d73-8a6a-c82a89606336" name="Changes" comment="readMe">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +70,7 @@
       <updated>1679931992990</updated>
       <workItem from="1679931994175" duration="2788000" />
       <workItem from="1679934847134" duration="5959000" />
-      <workItem from="1680640047267" duration="2285000" />
+      <workItem from="1680640047267" duration="2661000" />
     </task>
     <task id="LOCAL-00001" summary="bubbleSort">
       <created>1679934560511</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680641813292</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="readMe">
+      <created>1680642361900</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680642361900</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

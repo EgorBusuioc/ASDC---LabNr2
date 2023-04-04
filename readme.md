@@ -35,7 +35,7 @@
 |        <center>Среднее время | <center>*O(n<sup>2</sup>)*           |
 |       <center>Затраты памяти | <center>*O(1)*                       |
 
-### 1. __Selection Sort__
+### 2. __Selection Sort__
 <div id="header" align="center">
   <img src="https://miro.medium.com/v2/resize:fit:828/1*5WXRN62ddiM_Gcf4GDdCZg.gif" width="300"/>
 </div>
@@ -59,7 +59,7 @@
 |        <center>Среднее время | <center>*O(n<sup>2</sup>)*                 |
 |       <center>Затраты памяти | <center>*O(n)* всего, *O(1)* дополнительно |
 
-### 1. __Shell Sort__
+### 3. __Shell Sort__
 <div id="header" align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Sorting_shellsort_anim2.gif" width="300"/>
 </div>
